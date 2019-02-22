@@ -1,0 +1,149 @@
+@charset "utf-8";
+@font-face{
+    font-family: 'tmon';
+    src: url(../font/TmonMonsori.ttf);
+}
+@font-face{
+    font-family: 'tmon2';
+    src: url(../font/TmonTium.ttf);
+}
+body{
+	font-family: tmon2;
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+#wrap{
+	width: 100%;
+	height: 100%;
+}
+.hMenu{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: #fafafa;
+    position: fixed;
+	top:0;
+	left: 0;
+    z-index: 900;
+}
+.hMain{
+    height: 100%;
+}
+/*hMenu*/
+.hMenu .gnb{
+	width: 80%;
+	margin: 0 auto;
+}
+.hMenu h1{
+	float: left;
+	color: #4451b4;
+	font-size: 30px;
+	width: 30%;
+}
+.hMenu ul{
+	width: 70%;
+	float: left;
+	color: #ced0e2;
+}
+.hMenu ul>li{
+	float: left;
+	width: 24%;
+	text-align: center;
+}
+.loginjoin a{
+	background-color:#fcfcfc;
+	color: #9397b2;
+}
+li.sub{
+	display: none;
+}
+li.sub img{
+	width: 30px;
+	height: 30px;
+}
+@media only screen and (max-width:640px){
+	li.loginjoin,li.mainM{
+		display: none;
+	}
+	li.sub{
+		display: block;
+	}
+	li.sub img{
+		position: absolute;
+		right: 10px;
+		top: 10px;
+	}
+	ul.submenu{
+		position: absolute;
+		float: none;
+		width: 150px;
+		display: none;
+		top: 50px;
+		right: 0px;
+		background: #fafafa;
+		
+	}
+	li.sub ul.submenu>li{
+		float: none;
+		position: relative;
+		width: 100%;
+	}
+	li.sub ul.submenu>li:nth-child(4){
+		background: #fff;
+	}
+}
+/*hMain*/
+.hMain ul{
+    height: 100%;
+}
+.hMain .section{
+	height: 100%;
+	background: #ccc;
+	overflow: hidden;
+}
+.hMain .section.sec1{
+	background: url(../img/bg1.jpg) no-repeat 10%;
+    background-size: cover;
+}
+.hMain .section.sec2{
+	background: url(../img/bg2.jpg) no-repeat 30%;
+    background-size: cover;
+}
+.hMain .section.sec3{
+	background: url(../img/bg3.jpg) no-repeat center;
+    background-size: cover;
+}
+li .overlap{
+	width: 100%;
+	height: 100%;
+	background:#000c;
+    color: #fff;
+    position: relative;
+    display: table;
+    text-align: center;
+    display: none;
+}
+li .overlap .mainTxt{
+    width: 100%;
+    height: 85%;
+    display: table;
+}
+li .overlap .txtTop2{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 45px;
+}
+li .overlap .txtMap{
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+}
+li .overlap .location{
+      width: 20px;
+      height: 50px;
+     background: url(../img/location.PNG) no-repeat;
+    background-position: center;
+   margin: 0 auto;
+}

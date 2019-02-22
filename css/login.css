@@ -1,0 +1,73 @@
+@charset "utf-8";
+#bodyLayer{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: #000a;
+    z-index: 1000;
+}
+.loginLayer{
+    width: 400px;
+    height: 450px;
+    background: #fff;
+    position: absolute;
+    text-align: center;
+}
+.loginLayer .loginContent{
+    width: 300px;
+    margin: 0 auto;
+}
+.loginContent .loginTop{
+    width: 100%;
+    overflow: hidden;
+}
+.loginContent h2{
+    width: 100%;
+    font-size: 35px;
+    margin-top: 50px;
+}
+.loginLayer a{
+    font-size: 30px;
+    width: 20px;
+    height: 30px;
+    float: right;
+}
+.loginLayer .loginMain{
+    height: 190px;
+    margin-top: 30px;
+    line-height: 60px;
+    font-size: 18px;
+    border-bottom: 1px solid;
+}
+.loginLayer .loginMain input[type='text'],input[type='password']{
+    height: 20px;
+}
+.loginLayer input[type='submit']{
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 15px 120px;
+    border: 0px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.loginLayer .loginBottom{
+    margin-top: 30px;
+    height: 100px;
+    font-size: 13px;
+}
+.loginLayer .loginBottom a{
+    margin-top: 10px;
+    width: 100%;
+    height: 45px;
+    background: #000;
+    color: #ccc;
+    font-size: 17px;
+    line-height: 45px;
+}
+.gall{
+	width: 200px;
+	height: 200px;
+}

@@ -1,0 +1,176 @@
+#wrap{
+	width: 100%;
+	height: 100%;
+	background: #fafafa;
+}
+.arrow img{
+		width: 30px;
+	height: 30px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.header{
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+	border-bottom: 1px solid;
+}
+.section{
+	width: 100%;
+	height: 100%;
+}
+/*header 시작*/
+.header>div{
+	float: left;
+}
+.header .image{
+	width: 200px;
+}
+.header .image .galler{
+	width: 100%;
+	max-width: 200px;
+	height: 200px;
+	padding: 20px;
+}
+.header .image .galler img{
+	width: 100%;
+	height: 100%;
+	border: 0px solid;
+	box-sizing: border-box;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.header .userInfo{
+	width: 70%;
+	text-align: center;
+	margin: 70px auto 0 30px;
+}
+@media only screen and (max-width:840px){
+	.header .image{
+		max-width: 500px;
+	}
+	.userInfo{
+		max-width: 500px;
+	}
+	p.userId{
+		font-size: 18px;
+	}
+	.header .userInfo .userDown>li>a{
+		font-size: 11px;
+	}
+}
+@media only screen and (max-width:640px){
+	.header .image{
+		max-width: 400px;
+	}
+	.userInfo{
+		max-width: 450px;
+	}
+	p.userId{
+		font-size: 18px;
+	}
+	.header .userInfo .userDown>li>a{
+		font-size: 11px;
+	}
+}
+@media only screen and (max-width:695px){
+	.header .image{
+		width: 20%;
+	}
+	p.userId{
+		font-size: 18px;
+	}
+	.header .userInfo .userDown>li>a{
+		font-size: 11px;
+	}
+}
+.header .userInfo .userup{
+	width: 100%;
+	text-align: center;
+	height: 50px;
+	border-bottom: 1px solid;
+	font-size: 20px;
+	font-weight: 900;
+}
+.header .userInfo .userDown{
+	width: 50%;
+	height: 50px;
+	margin: 30px auto 0 auto;
+}
+.header .userInfo ul{
+	overflow: hidden;
+}
+.header .userInfo ul>li{
+	float: left;
+	width: 33.3333%;
+}
+/*section 시작*/
+.sectionContent{
+    width: 100%;
+    height: 100%;
+}
+.sectionContent ul{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.sectionContent ul:nth-child(1){
+    margin-top: 55px;
+}
+.sectionContent ul>li{
+    padding: 10px;
+}
+.sectionContent .gallery{
+    width: 100%;
+    height: 250px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.sectionContent .gallery a{
+	position: absolute;
+	font-size: 14px;
+	font-weight: 900;
+	color: #000000;
+}
+.sectionContent .gallery a:nth-child(1){
+	top: 10px;
+	right: 10px;
+}
+.sectionContent .gallery a:nth-child(2){
+	top: 10px;
+	right: 60px;
+}
+.sectionContent .gallery img{
+	width: 100%;
+	height: 100%;
+}
+.sectionContent .selectxt{
+    padding: 10px;
+    height: 90px;
+    background: #e9eaf4;
+	position: relative;
+}
+.sectionContent .selectxt p{
+    font-size: 13px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+.sectionContent .selectxt span{
+	position: absolute;
+	bottom: 10px;
+	font-size: 10px;
+}
+/*goTop */
+.goTop{
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	bottom: 10px;
+	right: 5px;
+	cursor: pointer;
+	z-index: 999;
+}

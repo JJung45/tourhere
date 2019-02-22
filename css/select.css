@@ -1,0 +1,106 @@
+#wrap{
+    width: 100%;
+    height: 100%;
+    background: #fafafa;;
+}
+.header{
+    width: 100%;
+    height: 55px;
+    line-height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background:#fafafa;
+	box-shadow: 0px 3px 3px rgba(0,0,0,.05);
+	z-index: 999;
+}
+.selectMain{
+    width: 100%;
+    height: 100%;
+}
+/*header 시작*/
+.header .headerContent{
+    overflow: hidden;
+}
+.header .selectMenu{
+    width: 24%;
+/*	max-width: 150px;*/
+    float: left;
+}
+.header .selectMenul{
+	width: 60%;
+	margin: 0 auto;
+}
+.header .selectMenul div{
+	float: left;
+	width: 22.3333%;
+	text-align: center;
+	cursor: pointer;
+	padding-right: 8px;
+}
+.header .selectMenul div:nth-child(3){
+	padding-right: 0px;
+}
+.header .search{
+	width: 56%;
+/*    max-width: 600px;*/
+	float: left;
+}
+.header input{
+    width: 100%;
+    height: 40px;
+    border: 0px;
+    text-align: center;
+    border-radius: 5px;
+}
+.header .loginjoin{
+	width: 20%;
+/*	max-width: 100px;*/
+	height: 40px;
+	text-align: center;
+	float: left;
+	margin-top: 10px;
+	line-height: 40px;
+}
+.loginjoin a{
+	color: #9397b2;
+}
+/*selectMain 시작*/
+.selectContent{
+    width: 100%;
+    height: 100%;
+}
+.selectContent ul{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.selectContent ul:nth-child(1){
+    padding-top: 80px;
+}
+.selectContent ul>li{
+    float: left;
+    padding: 10px;
+}
+.selectContent .gallery{
+    width: 100%;
+    height: 250px;
+	cursor: pointer;
+}
+.selectContent .selectxt{
+    padding: 10px;
+    height: 90px;
+    background: #e9eaf4;
+	position: relative;
+}
+.selectContent .selectxt p{
+    font-size: 13px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+.selectContent .selectxt span{
+	position: absolute;
+	bottom: 10px;
+	font-size: 10px;
+}

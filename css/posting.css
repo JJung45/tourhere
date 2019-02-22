@@ -1,0 +1,119 @@
+@charset "utf-8";
+body,html{
+	width: 100%;
+	height: 100%;
+}
+#wrap{
+	width: 100%;
+	height: 100%;
+	background:#fafafa;
+}
+.contents{
+	width: 100%;
+	max-width: 1000px;
+	height: 100%;
+}
+@media only screen and (max-width:640px){
+	.contents{
+	width: 100%;
+	max-width: 450px;
+	height: 100%;
+}
+}
+.arrow img{
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.gall{
+	width: 100%;
+	border: 1px solid #c1c6e5;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 340px;
+	background: #fff;
+}
+.viewgall{
+	line-height: 410px;
+}
+@media only screen and (max-width:640px){
+	.gall{
+		line-height: 320px;
+}
+	.viewgall{
+	line-height: 400px;
+
+}
+}
+.gall #img{
+	width: 30px;
+}
+.gall img.gallView{
+	width:250px;
+}
+.popUp{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: #000a;
+	display: none;
+}
+.popUp .popupContents{
+	width: 100%;
+	max-width: 400px;
+	height: 400px;
+	background: #fff;
+	position: relative;
+	margin: 10% auto;
+}
+.toupload{
+	margin-top: 5px;
+	width: 100%;
+	margin-bottom: 5px;
+}
+.save{
+	margin-top: 5px;
+	width: 100%;
+}
+.userTxts{
+	width: 100%
+}
+/*upload*/
+.toupload input{
+	position: absolute;
+	width: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+	border: 0;
+	box-sizing: border-box;
+}
+.toupload a{
+	display: inline-block;
+	width: 100%;
+	padding: 5px 0;
+	text-align: center;
+	font-size: 13px;
+	background: #5664bf;
+	color: #fff;
+}
+/*userTxt*/
+.userTxts textarea{
+	width: 100%;
+	border: 1px solid #c1c6e5;
+	box-sizing: border-box;
+}
+/*save*/
+.save a{
+	width: 100%;
+	background: #4451b4;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	line-height: 40px;
+}

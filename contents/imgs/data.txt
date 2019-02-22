@@ -1,0 +1,1 @@
+I did not get any data from ajax, userTxt is: 
